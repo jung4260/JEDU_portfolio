@@ -6,18 +6,35 @@
 
 </br>
 
-## 📝 1. JEDU 프로젝트 소개
-> #### 1 - 1 
+## 📝 JEDU 프로젝트 소개
 
-![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![js](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Jquery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Amazon_AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+1. 프로젝트 개요
+   + 국비 프로젝트 중 하나로 기업과 연계해서 프로젝트를 진행함
+   + 바둑을 배우고 싶어하는 사람에게 기초적인 지식을 제공하고, 즐거운 경험을 통해 흥미를 유발하는 동시에, 체계적으로 바둑을 공부하려는 이들을 위해 제작
+
+</br>
+     
+2. 개발기간 및 참여인원
+   + 2024년 3월 18일 ~ 2024년 4월 22일 (약 4주)
+   + 4명
+
+     
+
+
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/f1500a2a-7e64-4dc3-b348-b4d8a9338444" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/fa27d8ae-4d2a-41fc-87b4-6906229af915" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/a3da11f3-f2da-4e45-8793-22e34af6786f" width="1200" height="600">
+
+
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
+<img src="" width="1200" height="600">
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jung4260&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
