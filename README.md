@@ -18,6 +18,8 @@
    + 2024년 3월 18일 ~ 2024년 4월 22일 (약 4주)
    + 4명
 
+</br>
+
 3. 개발 상세 내용
      + 스프링 시큐리티 구현
      + 학생페이지 구현
@@ -32,11 +34,20 @@
        + TOSS API를 사용하여 결재 구현
        + ADMIN이 올린 게임컨텐츠 장바구니 담기 구현
      + AWS EC2를 활용하여 배포 및 구현
+       + 윈도우에서 ./gradlew build후에 filezilla를 사용하여 배포함 
      
+</br>
+</br>
 
+## 📝 JEDU 개발 내용 소개
 
+### 1) JEDU 홈페이지 메인
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/f1500a2a-7e64-4dc3-b348-b4d8a9338444" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/fa27d8ae-4d2a-41fc-87b4-6906229af915" width="1200" height="600">
+
+
+
+
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/a3da11f3-f2da-4e45-8793-22e34af6786f" width="1200" height="600">
 
 
