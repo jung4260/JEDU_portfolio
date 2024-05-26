@@ -47,7 +47,7 @@
 
 ## 🔎 JEDU 개발 내용 소개
 
-### 1) JEDU 홈페이지 메인
+### 1. JEDU 홈페이지 메인
 + 메인 화면은 모든 사용자에게 열려 있으며, 회원과 비회원 모두 접근할 수 있습니다. 비회원들은 메인 화면을 통해 서비스 소개를 비롯하여 튜토리얼과 게임 일부를 체험할 수 있습니다.
 + 🔐 Spring Security를 사용하여 역할(role)을 나눈 후, 로그인 시 역할에 따라 th:block을 활용하여 학생, 선생님, 일반 사용자, 관리자 메뉴를 각각 설정해 놓았습니다.
 <details>
@@ -64,22 +64,61 @@
 </br>
 <hr>
 
-### 2) 학생페이지 학습 그룹
+### 2-1. 학생페이지 학습 그룹 조회
 + 학습 그룹 조회 페이지입니다.
 + 학습 그룹 페이지는 선생님이 등록한 학습 그룹을 한눈에 보기 쉽게 리스트 형태로 구성하였습니다.
 + 목록 개수가 7개를 초과하면 페이지네이션을 통해 페이징 처리할 수 있도록 구현해 두었습니다.
-+ 또한 초록색 버튼인 AI찬스 버튼을 누르면 각각의 학생의 레벨에 맞는 학습을 
++ 또한, 초록색 버튼인 AI 찬스 버튼을 누르면 각각의 학생 레벨에 맞는 학습을 추천하도록 설정했습니다. 이를 위해 jQuery를 사용하여 AJAX (GET) 방식으로 데이터를 불러오도록 구현하였습니다.
+<details>
+   <summary>코드 펼치기/접기</summary>
+   <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/008eca20-ac0d-4274-a260-9804f7c6814b" width="900" height="400">
+    <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/8b627471-95bd-4e88-b98b-8eca4ed3ed15" width="1000" height="600">
+    <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/9696a920-dadc-4f89-8b4b-e5eea47b7368" width="900" height="400">
+</details>
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1df5833f-679b-4ec8-aeeb-b85bb1d593f4" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/2cff2a3a-a5f7-4c74-879c-05a34d99b778" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/60b83e38-5b04-4cea-9dd9-8d704b4108bf" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1df5833f-679b-4ec8-aeeb-b85bb1d593f4" width="1200" height="600">
 
-6 학습그룹신청<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/da8aeffb-f1b1-4bb9-8a3b-040630434936" width="1200" height="600">
-7 학습그룹승인절차<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/0874e7f6-91c0-4475-8360-5e3030deb714" width="1200" height="600">
-8 가입완료 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e35d0151-a57a-4916-92e2-07fb9c2ff109" width="1200" height="600">
-9 학습그룹승인여부 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/4f3c1c0e-9e14-4350-87f9-956bfb6fae0d" width="1200" height="600">
-10 나의학습그룹진행률 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/54e81f1a-3572-439c-8b4d-c623ae359b45" width="1200" height="600">
-11 다른학생진행률<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/ba0eeb5d-b4a9-4d34-862e-1c514d791a55" width="1200" height="600">
+</br>
+</br>
+<hr>
+
+
+### 2-2. 학생페이지 학습 그룹 신청
++ 학습 그룹 조회 후, 가입하고 싶은 그룹명을 클릭하면 해당 학습 그룹의 상세 정보를 확인하고 신청할 수 있는 기능을 추가했습니다.
++ 이 기능 또한 AJAX로 구현했으며, 승인 신청, 승인 중, 가입 완료, 거절 시 재가입 신청 등 다양한 상황에 대비하여 기능을 구현했습니다.
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/da8aeffb-f1b1-4bb9-8a3b-040630434936" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/0874e7f6-91c0-4475-8360-5e3030deb714" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e35d0151-a57a-4916-92e2-07fb9c2ff109" width="1200" height="600">
+
+</br>
+</br>
+<hr>
+
+### 2-3. 학생페이지 학습 그룹 승인 여부
++ 학생의 편의를 위해 신청한 학습 그룹의 승인 상태를 확인할 수 있도록 별도의 페이지를 구성했습니다. 이 페이지에서는 신청한 학습 그룹이 승인되었는지, 거절되었는지, 아니면 아직 승인 중인지에 대한 정보를 제공합니다.
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/4f3c1c0e-9e14-4350-87f9-956bfb6fae0d" width="1200" height="600">
+
+</br>
+</br>
+<hr>
+
+### 2-4. 학생페이지 학습 그룹 진행 상황
++ 선생님이 미리 정해둔 수업 진행도와 선생님의 숙제 평가에 따라 수업 진행율을 학생이 볼 수 있도록 구현해 놓았습니다. 이를 통해 학생들은 자신의 학습 진행 상황을 쉽게 확인할 수 있습니다.
++ 가입된 학습 그룹을 클릭하면, 학생들이 자신의 학습 진행 상황 외에도 다른 학생들의 진행률을 볼 수 있도록 구현해 놓았습니다. 이는 약간의 자극제로 작용할 수 있도록 하기 위해 구현해 보았습니다.
+<details>
+   <summary>코드 펼치기/접기</summary>
+   <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/444b1c7a-6d9f-4865-a822-3d5ab430951b" width="900" height="400">
+</details>
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/54e81f1a-3572-439c-8b4d-c623ae359b45" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/ba0eeb5d-b4a9-4d34-862e-1c514d791a55" width="1200" height="600">
+
+</br>
+</br>
+<hr>
+
+### 3-1. 학생페이지 숙제메뉴
 12 숙제메뉴 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/d55ac810-7ac3-49b6-bd68-e220bf3af622" width="1200" height="600">
 13 숙제리스트<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/5465464b-9ad7-4b75-b273-a094cd04564f" width="1200" height="600">
 14 숙제상세보기<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/39cb1ac6-63c4-4094-9c6b-1bc1a4d9169c" width="1200" height="600">
