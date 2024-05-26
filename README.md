@@ -39,20 +39,41 @@
 </br>
 </br>
 
-## 📝 JEDU 개발 내용 소개
+## 📝 ERD 구조
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e2527bab-2af2-43d9-8644-7ff80bc9e2ff" width="1200" height="600">
+
+## 📝 시스템 아키텍처
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/ae2fad39-9910-46ce-a4e0-eba36bafce4d" width="1200" height="600">
+
+## 🔎 JEDU 개발 내용 소개
 
 ### 1) JEDU 홈페이지 메인
++ 메인 화면은 모든 사용자에게 열려 있으며, 회원과 비회원 모두 접근할 수 있습니다. 비회원들은 메인 화면을 통해 서비스 소개를 비롯하여 튜토리얼과 게임 일부를 체험할 수 있습니다.
++ 🔐 Spring Security를 사용하여 역할(role)을 나눈 후, 로그인 시 역할에 따라 th:block을 활용하여 학생, 선생님, 일반 사용자, 관리자 메뉴를 각각 설정해 놓았습니다.
+<details>
+   <summary>코드 펼치기/접기</summary>
+   <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/883c9353-9ee3-46c6-9730-0ca5260e5e49" width="1200" height="600">
+</details>
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/f1500a2a-7e64-4dc3-b348-b4d8a9338444" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/fa27d8ae-4d2a-41fc-87b4-6906229af915" width="1200" height="600">
-
-
-
-
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/a3da11f3-f2da-4e45-8793-22e34af6786f" width="1200" height="600">
 
+</br>
+</br>
+</br>
+</br>
+<hr>
 
-4 학습그룹조회 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/2cff2a3a-a5f7-4c74-879c-05a34d99b778" width="1200" height="600">
-5 Ajax조회 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/60b83e38-5b04-4cea-9dd9-8d704b4108bf" width="1200" height="600">
+### 2) 학생페이지 학습 그룹
++ 학습 그룹 조회 페이지입니다.
++ 학습 그룹 페이지는 선생님이 등록한 학습 그룹을 한눈에 보기 쉽게 리스트 형태로 구성하였습니다.
++ 목록 개수가 7개를 초과하면 페이지네이션을 통해 페이징 처리할 수 있도록 구현해 두었습니다.
++ 또한 초록색 버튼인 AI찬스 버튼을 누르면 각각의 학생의 레벨에 맞는 학습을 
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1df5833f-679b-4ec8-aeeb-b85bb1d593f4" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/2cff2a3a-a5f7-4c74-879c-05a34d99b778" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/60b83e38-5b04-4cea-9dd9-8d704b4108bf" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1df5833f-679b-4ec8-aeeb-b85bb1d593f4" width="1200" height="600">
+
 6 학습그룹신청<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/da8aeffb-f1b1-4bb9-8a3b-040630434936" width="1200" height="600">
 7 학습그룹승인절차<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/0874e7f6-91c0-4475-8360-5e3030deb714" width="1200" height="600">
 8 가입완료 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e35d0151-a57a-4916-92e2-07fb9c2ff109" width="1200" height="600">
