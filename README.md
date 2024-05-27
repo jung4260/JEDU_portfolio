@@ -129,11 +129,22 @@
 </br>
 <hr>
 
-### 3-2. 학생페이지 숙제이력 페이지
-+ 
+### 3-2. 학생페이지 숙제 이력 페이지
++ 숙제 제출 이력 페이지는 다음과 같이 구성되어 있습니다:
+   1. 숙제 제출 기한: 각 숙제의 제출 마감일을 확인할 수 있습니다. 날짜를 계산하여 표시를 해두었습니다. ex) 제출 D-10 / 제출 D+12 / 제출 완료
+   2. 숙제 제출 평가 여부: 제출한 숙제가 평가되었는지 여부를 표시합니다.
+   3. 숙제 평가 확인: 평가가 완료된 숙제에 대한 평가 내용을 확인할 수 있습니다.
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/88334efe-62d4-4013-b494-b23de6c8a6ec" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1e06bab5-b1aa-409f-9645-697a202aeaf4" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/038114fc-ee25-468b-8698-21d9bb8a7259" width="1200" height="600">
+
+</br>
+</br>
+<hr>
+
+### 4. 선생페이지 장바구니 및 토스결제 API
++ 상대적으로 일찍 학생 페이지를 마무리한 저는 다른 조원의 기능 중 하나를 맡아서 구현해 보았습니다.
++ 
 16 선생-장바구니 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/c833495d-f46e-49c7-a2f8-bf1b8c21937d" width="1200" height="600">
 17 토스결재 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/bbcd7ade-bce7-4822-9d77-66d381319cf0" width="1200" height="600">
 17-1 토스결재 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/8ca7fce8-1c31-4fc7-9577-670d2ac0b1ac" width="1200" height="600">
