@@ -88,9 +88,10 @@
 ### 2-2. 학생페이지 학습 그룹 신청
 + 학습 그룹 조회 후, 가입하고 싶은 그룹명을 클릭하면 해당 학습 그룹의 상세 정보를 확인하고 신청할 수 있는 기능을 추가했습니다.
 + 이 기능 또한 AJAX로 구현했으며, 승인 신청, 승인 중, 가입 완료, 거절 시 재가입 신청 등 다양한 상황에 대비하여 기능을 구현했습니다.
-<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/da8aeffb-f1b1-4bb9-8a3b-040630434936" width="1200" height="600">
-<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/0874e7f6-91c0-4475-8360-5e3030deb714" width="1200" height="600">
-<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e35d0151-a57a-4916-92e2-07fb9c2ff109" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/2537e11c-3cfc-4911-ae32-418d58bfa4e7" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/704e19e9-b197-453d-8246-fbc902b66b91" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1417c6ff-8165-43bf-bcb9-889966127c82" width="1200" height="600">
+
 
 </br>
 </br>
@@ -119,16 +120,23 @@
 <hr>
 
 ### 3-1. 학생페이지 숙제메뉴
-12 숙제메뉴 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/d55ac810-7ac3-49b6-bd68-e220bf3af622" width="1200" height="600">
-13 숙제리스트<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/5465464b-9ad7-4b75-b273-a094cd04564f" width="1200" height="600">
-14 숙제상세보기<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/39cb1ac6-63c4-4094-9c6b-1bc1a4d9169c" width="1200" height="600">
-15 숙제이력 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/88334efe-62d4-4013-b494-b23de6c8a6ec" width="1200" height="600">
-15-1 우수 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1e06bab5-b1aa-409f-9645-697a202aeaf4" width="1200" height="600">
-15-2 미흡 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/038114fc-ee25-468b-8698-21d9bb8a7259" width="1200" height="600">
++ 이 페이지에서는 선생님이 내어 주신 숙제를 확인할 수 있습니다. 학생들은 이 페이지에서 자신에게 할당된 숙제를 볼 수 있습니다.
++ 해당 숙제를 클릭하면 숙제의 상세 내용을 확인할 수 있으며, 바로 숙제를 풀어서 제출할 수 있도록 만들어 놓았습니다.
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/5465464b-9ad7-4b75-b273-a094cd04564f" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/39cb1ac6-63c4-4094-9c6b-1bc1a4d9169c" width="1200" height="600">
+
+</br>
+</br>
+<hr>
+
+### 3-2. 학생페이지 숙제이력 페이지
++ 
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/88334efe-62d4-4013-b494-b23de6c8a6ec" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1e06bab5-b1aa-409f-9645-697a202aeaf4" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/038114fc-ee25-468b-8698-21d9bb8a7259" width="1200" height="600">
 16 선생-장바구니 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/c833495d-f46e-49c7-a2f8-bf1b8c21937d" width="1200" height="600">
 17 토스결재 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/bbcd7ade-bce7-4822-9d77-66d381319cf0" width="1200" height="600">
 17-1 토스결재 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/8ca7fce8-1c31-4fc7-9577-670d2ac0b1ac" width="1200" height="600">
 18 선생장바구니 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e5bb6b55-b220-4098-ba41-8fcb7067793b" width="1200" height="600">
 
-<img src="" width="1200" height="600">
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jung4260&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
