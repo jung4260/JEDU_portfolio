@@ -134,6 +134,7 @@
    1. 숙제 제출 기한: 각 숙제의 제출 마감일을 확인할 수 있습니다. 날짜를 계산하여 표시를 해두었습니다. ex) 제출 D-10 / 제출 D+12 / 제출 완료
    2. 숙제 제출 평가 여부: 제출한 숙제가 평가되었는지 여부를 표시합니다.
    3. 숙제 평가 확인: 평가가 완료된 숙제에 대한 평가 내용을 확인할 수 있습니다.
+         + 선생님의 평가를 기반으로 “우수”, “보통”, “미흡” 으로 구분됩니다. 만약 사용자가 “우수” 또는 “보통”을 받으면 해당 스터디의 다음 단계로 진도를 나아갈 수 있습니다. 또한, “나의 학습 그룹” 페이지에서 해당 스터디의 진도율을 확인 할 수 있습니다.
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/88334efe-62d4-4013-b494-b23de6c8a6ec" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/1e06bab5-b1aa-409f-9645-697a202aeaf4" width="1200" height="600">
 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/038114fc-ee25-468b-8698-21d9bb8a7259" width="1200" height="600">
@@ -143,11 +144,27 @@
 <hr>
 
 ### 4. 선생페이지 장바구니 및 토스결제 API
-+ 상대적으로 일찍 학생 페이지를 마무리한 저는 다른 조원의 기능 중 하나를 맡아서 구현해 보았습니다.
-+ 
-16 선생-장바구니 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/c833495d-f46e-49c7-a2f8-bf1b8c21937d" width="1200" height="600">
-17 토스결재 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/bbcd7ade-bce7-4822-9d77-66d381319cf0" width="1200" height="600">
-17-1 토스결재 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/8ca7fce8-1c31-4fc7-9577-670d2ac0b1ac" width="1200" height="600">
-18 선생장바구니 <img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e5bb6b55-b220-4098-ba41-8fcb7067793b" width="1200" height="600">
++ 상대적으로 일찍 학생 페이지를 마무리한 저는 다른 조원의 기능 중 하나를 맡아서 구현해 보았습니다. 이 기능은 다음과 같습니다:
+   1. 게임 콘텐츠 구매:
+      + 선생님은 기본적으로 관리자가 만들어 놓은 게임 콘텐츠를 구매해야 해당 콘텐츠를 사용하여 학습 그룹을 만들 수 있습니다.
+   2. 콘텐츠 구매 방식:
+      + 관리자가 만들어 놓은 콘텐츠를 바로 결제할 수 있는 옵션과, 장바구니에 넣어서 한꺼번에 결제할 수 있는 옵션을 제공하여 콘텐츠를 구매할 수 있도록 구현하였습니다.
+   3. 결제 프로세스:
+      + 결제 프로세스에는 토스 API를 사용하였습니다. 이를 통해 안전하고 편리하게 결제가 이루어지도록 하였습니다.
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/c833495d-f46e-49c7-a2f8-bf1b8c21937d" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/bbcd7ade-bce7-4822-9d77-66d381319cf0" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/8ca7fce8-1c31-4fc7-9577-670d2ac0b1ac" width="1200" height="600">
+<img src="https://github.com/jung4260/JEDU_portfolio/assets/41248229/e5bb6b55-b220-4098-ba41-8fcb7067793b" width="1200" height="600">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jung4260&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+</br>
+</br>
+<hr>
+
+## 📝 JEDU 프로젝트 소감
+```이번 프로젝트를 진행하며 많은 것을 배울 수 있는 귀중한 경험이었습니다. 팀원들과 협력하여 각자의 역할을 수행하고, 여러 기능을 구현하는 과정을 통해 개발 능력을 향상시킬 수 있었습니다. 특히, Spring Security를 이용한 역할 기반 접근 제어와 jQuery를 활용한 AJAX 통신, 시각적데이터를 위한 백엔드 설계 그리고 토스 API를 사용한 결제 시스템 구축 등 다양한 기술을 적용해보는 기회가 되었습니다.```
+<br>
+<br>
+```초기에 학생 페이지를 일찍 마무리하면서 다른 조원의 기능 구현을 도왔던 경험은, 협업의 중요성을 다시 한 번 깨닫게 해주었습니다. 또한, 데이터베이스 연결 및 처리 과정에서 발생한 문제들을 해결하면서 문제 해결 능력을 키울 수 있었습니다.```
+<br>
+<br>
+```프로젝트를 성공적으로 마무리하면서, 기능 구현과 버그 해결, 그리고 최종 테스트까지 모든 과정을 통해 얻은 지식과 경험이 앞으로의 개발자 커리어에 큰 도움이 될 것이라 확신합니다. 팀원들과 함께 목표를 달성해가는 과정이 매우 의미 있었고, 앞으로도 이런 협업과 성취감을 느낄 수 있는 프로젝트를 많이 해보고 싶습니다.```
